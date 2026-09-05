@@ -1,0 +1,30 @@
+{
+  "as_of": "2026-08-26",
+  "notes": "Seed org strings matched as case-insensitive substrings on institution names.",
+  "orgs": [
+    {"key": "mit", "names": ["Massachusetts Institute of Technology", "MIT"]},
+    {"key": "stanford", "names": ["Stanford University", "Stanford"]},
+    {"key": "berkeley", "names": ["University of California, Berkeley", "UC Berkeley", "Berkeley"]},
+    {"key": "cmu", "names": ["Carnegie Mellon University", "CMU"]},
+    {"key": "oxford", "names": ["University of Oxford", "Oxford University"]},
+    {"key": "cambridge", "names": ["University of Cambridge"]},
+    {"key": "eth", "names": ["ETH Zurich", "ETH Zürich", "Swiss Federal Institute of Technology"]},
+    {"key": "tsinghua", "names": ["Tsinghua University", "Tsinghua"]},
+    {"key": "pku", "names": ["Peking University", "PKU"]},
+    {"key": "zju", "names": ["Zhejiang University"]},
+    {"key": "sjtu", "names": ["Shanghai Jiao Tong University", "SJTU"]},
+    {"key": "ustc", "names": ["University of Science and Technology of China", "USTC"]},
+    {"key": "nus", "names": ["National University of Singapore", "NUS"]},
+    {"key": "ntu", "names": ["Nanyang Technological University", "NTU"]},
+    {"key": "google_deepmind", "names": ["Google DeepMind", "DeepMind", "Google Brain", "Google Research"]},
+    {"key": "openai", "names": ["OpenAI"]},
+    {"key": "meta_ai", "names": ["Meta AI", "FAIR", "Facebook AI Research"]},
+    {"key": "microsoft_research", "names": ["Microsoft Research", "MSR"]},
+    {"key": "apple", "names": ["Apple Machine Learning", "Apple Research"]},
+    {"key": "amazon_science", "names": ["Amazon Science", "AWS AI"]},
+    {"key": "nvidia", "names": ["NVIDIA Research", "NVIDIA"]},
+    {"key": "allenai", "names": ["Allen Institute for AI", "AI2", "Allen Institute for Artificial Intelligence"]},
+    {"key": "max_planck", "names": ["Max Planck"]},
+    {"key": "inria", "names": ["Inria", "INRIA"]}
+  ]
+}

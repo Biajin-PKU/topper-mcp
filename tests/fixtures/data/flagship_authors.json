@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-08-26",
+  "notes": "Small seed list for authority boost demos. Expand with OpenAlex author ids + provenance.",
+  "authors": [
+    {"key": "yoshua_bengio", "names": ["Yoshua Bengio"], "openalex_author_ids": [], "fields": ["AI"]},
+    {"key": "yann_lecun", "names": ["Yann LeCun", "Yann Lecun"], "openalex_author_ids": [], "fields": ["AI"]},
+    {"key": "geoffrey_hinton", "names": ["Geoffrey Hinton", "Geoffrey E. Hinton"], "openalex_author_ids": [], "fields": ["AI"]},
+    {"key": "andrew_ng", "names": ["Andrew Ng", "Andrew Y. Ng"], "openalex_author_ids": [], "fields": ["AI"]},
+    {"key": "fei_fei_li", "names": ["Fei-Fei Li", "Fei Fei Li", "Li Fei-Fei"], "openalex_author_ids": [], "fields": ["CV"]},
+    {"key": "christopher_manning", "names": ["Christopher D. Manning", "Christopher Manning"], "openalex_author_ids": [], "fields": ["NLP"]},
+    {"key": "percys_liang", "names": ["Percy Liang"], "openalex_author_ids": [], "fields": ["NLP"]},
+    {"key": "ilya_sutskever", "names": ["Ilya Sutskever"], "openalex_author_ids": [], "fields": ["AI"]},
+    {"key": "demis_hassabis", "names": ["Demis Hassabis"], "openalex_author_ids": [], "fields": ["AI"]},
+    {"key": "jian_sun", "names": ["Jian Sun"], "openalex_author_ids": [], "fields": ["CV"], "note": "disambiguate carefully in production"},
+    {"key": "kaiming_he", "names": ["Kaiming He"], "openalex_author_ids": [], "fields": ["CV"]},
+    {"key": "ross_girshick", "names": ["Ross Girshick"], "openalex_author_ids": [], "fields": ["CV"]},
+    {"key": "oriol_vinyals", "names": ["Oriol Vinyals"], "openalex_author_ids": [], "fields": ["AI"]},
+    {"key": "ashish_vaswani", "names": ["Ashish Vaswani"], "openalex_author_ids": [], "fields": ["NLP"]},
+    {"key": "jeff_dean", "names": ["Jeff Dean", "Jeffrey Dean"], "openalex_author_ids": [], "fields": ["Systems"]}
+  ]
+}

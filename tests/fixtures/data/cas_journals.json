@@ -1,0 +1,26 @@
+{
+  "as_of": "2026-08-27",
+  "journals": [
+    {"key": "nature", "name": "Nature", "issn": ["0028-0836", "1476-4687"],
+     "cas_zone": 1, "cas_major": "综合性期刊", "cas_top": true,
+     "sci": true, "ssci": false, "ahci": false, "jcr_quartile": "Q1", "impact_factor": 50.5},
+    {"key": "nature-machine-intelligence", "name": "Nature Machine Intelligence",
+     "cas_zone": 1, "cas_major": "计算机科学", "cas_top": true,
+     "sci": true, "ssci": false, "ahci": false, "jcr_quartile": "Q1", "impact_factor": 18.8},
+    {"key": "nature-genetics", "name": "Nature Genetics",
+     "cas_zone": 1, "cas_major": "生物学", "cas_top": true,
+     "sci": true, "ssci": false, "ahci": false, "jcr_quartile": "Q1", "impact_factor": 31.7},
+    {"key": "the-lancet", "name": "The Lancet",
+     "cas_zone": 1, "cas_major": "医学", "cas_top": true,
+     "sci": true, "ssci": false, "ahci": false, "jcr_quartile": "Q1", "impact_factor": 98.4},
+    {"key": "american-economic-review", "name": "American Economic Review",
+     "cas_zone": 1, "cas_major": "经济学", "cas_top": true,
+     "sci": false, "ssci": true, "ahci": false, "jcr_quartile": "Q1", "impact_factor": 11.2},
+    {"key": "economics-of-education-review", "name": "Economics of Education Review",
+     "cas_zone": 2, "cas_major": "经济学", "cas_top": false,
+     "sci": false, "ssci": true, "ahci": false, "jcr_quartile": "Q2", "impact_factor": 2.6},
+    {"key": "journal-of-philosophy", "name": "Journal of Philosophy",
+     "cas_zone": 2, "cas_major": "哲学", "cas_top": false,
+     "sci": false, "ssci": false, "ahci": true, "jcr_quartile": null, "impact_factor": null}
+  ]
+}

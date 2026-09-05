@@ -1,0 +1,18 @@
+{
+  "schema": "topper.data.v1",
+  "as_of": "2026-08-27",
+  "notes": [
+    "Bundled tables are curated snapshots for filtering — not live official feeds.",
+    "CCF levels follow the CCF recommended catalog naming (A/B/C); see ccf_venues.json.",
+    "CAS zones, JCR quartiles and Web-of-Science membership are NOT bundled: those",
+    "catalogs carry their own licences. See README.md in this directory to add them.",
+    "Authority lists are seeds — expand them with provenance, do not scrape rank pages."
+  ],
+  "files": {
+    "ccf_venues": "ccf_venues.json",
+    "cas_journals": "cas_journals.json",
+    "fms_journals": "fms_journals.json",
+    "flagship_authors": "flagship_authors.json",
+    "flagship_orgs": "flagship_orgs.json"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "fixture_pack",
+  "name_zh": "夹具主题",
+  "name_en": "Fixture topic",
+  "match_any": ["fixture curated topic", "夹具主题"],
+  "seed_queries": ["Alpha Method For Fixture Topic"],
+  "gold_title_substrings": ["Alpha Method", "Beta Framework"],
+  "noise_title_substrings": ["Unrelated Cooking"],
+  "landscape": {
+    "title_zh": "夹具主题 · 方向梳理",
+    "summary_zh": "合成夹具，用于验证 curated 分支被正确选中。",
+    "schools": [
+      {"id": "alpha", "name_zh": "Alpha 路线", "name_en": "Alpha line",
+       "desc_zh": "合成描述。", "paper_keys": ["Alpha Method"]},
+      {"id": "beta", "name_zh": "Beta 路线", "name_en": "Beta line",
+       "desc_zh": "合成描述。", "paper_keys": ["Beta Framework"]},
+      {"id": "gamma", "name_zh": "Gamma 路线", "name_en": "Gamma line",
+       "desc_zh": "合成描述。", "paper_keys": ["Gamma Approach"]}
+    ],
+    "benchmarks": [
+      {"name": "FixtureBench", "paper_keys": ["FixtureBench"]},
+      {"name": "ProbeSuite", "paper_keys": ["ProbeSuite"]}
+    ]
+  },
+  "acceptance": {"min_results": 3, "min_gold_hits": 2, "max_noise_hits": 0}
+}

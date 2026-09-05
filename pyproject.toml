@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "topper-mcp"
+version = "0.1.0"
+description = "Top-only academic paper retrieval (CCF / CAS / JCR gated), as a library, CLI and MCP server"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["research", "papers", "semantic-scholar", "openalex", "mcp", "literature-review"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering",
+]
+# The engine is stdlib-only; the MCP server is an optional extra.
+dependencies = []
+
+[project.optional-dependencies]
+mcp = ["mcp>=2.0"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+topper = "topper.cli:main"
+topper-mcp = "topper.mcp_server:main"
+
+[tool.setuptools.packages.find]
+include = ["topper*"]
+
+[tool.setuptools.package-data]
+topper = ["data/*.json"]
+
+[tool.pytest.ini_options]
+# Let `pytest` work straight from a clone, without `pip install -e .` first.
+pythonpath = ["."]
+testpaths = ["tests"]
